@@ -1,0 +1,11 @@
+@use './variables' as *;
+
+.catalog {
+  min-height: 862px;
+  padding: 50px 40px;
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  grid-template-columns: repeat(4, 200px);
+  gap: 46px 48px;
+}

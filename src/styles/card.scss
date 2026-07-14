@@ -1,0 +1,141 @@
+@use './variables' as *;
+
+.card {
+  box-sizing: border-box;
+  width: 200px;
+  height: 408px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  font-family: roboto, sans-serif;
+  position: relative;
+  transition: transform 300ms;
+  overflow: hidden;
+
+  &__image {
+    position: absolute;
+    width: 160px;
+    height: 134px;
+    top: 32px;
+    left: 19px;
+  }
+
+  &__title {
+    box-sizing: border-box;
+    margin: 0;
+    width: 166px;
+    height: 36px;
+    position: absolute;
+    top: 206px;
+    left: 16px;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #060b35;
+    transition: color 300ms;
+  }
+
+  &__code {
+    box-sizing: border-box;
+    margin: 0;
+    width: 98px;
+    height: 14px;
+    position: absolute;
+    top: 246px;
+    left: 16px;
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #616070;
+  }
+
+  &__rate {
+    box-sizing: border-box;
+    position: absolute;
+    top: 276px;
+    left: 16px;
+    width: 166px;
+    height: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__review {
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 52px;
+    height: 16px;
+    line-height: 14px;
+    font-size: 10px;
+    font-weight: 400;
+    color: #060b35;
+  }
+
+  &__price {
+    box-sizing: border-box;
+    width: 166px;
+    height: 18px;
+    position: absolute;
+    top: 316px;
+    left: 16px;
+    display: flex;
+    justify-content: space-between;
+
+    &-title {
+      width: 31px;
+      height: 18px;
+      line-height: 18px;
+      font-size: 12px;
+      font-weight: 400;
+      color: #616070;
+    }
+
+    &-value {
+      width: 49px;
+      height: 18px;
+      line-height: 18px;
+      font-size: 16px;
+      font-weight: 700;
+      color: #060b35;
+    }
+  }
+
+  &__button {
+    box-sizing: border-box;
+    width: 166px;
+    height: 40px;
+    position: absolute;
+    top: 350px;
+    left: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #00acdc;
+    border-radius: 5px;
+    background-color: #00acdc;
+    color: #fff;
+    line-height: 16px;
+    font-size: 14px;
+    font-weight: 700;
+
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 300ms;
+
+    &:hover {
+      background-color: #fff;
+      color: #00acdc;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.2);
+
+    .card__title {
+      color: #34568b;
+    }
+  }
+}
