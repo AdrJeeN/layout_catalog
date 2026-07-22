@@ -9,26 +9,23 @@
   border: 1px solid $border-color;
   border-radius: 5px;
   font-family: roboto, sans-serif;
-  position: relative;
   transition: transform 300ms;
   overflow: hidden;
 
   &__image {
-    position: absolute;
     width: 160px;
     height: 134px;
-    top: 32px;
-    left: 19px;
+    margin-top: 32px;
+    margin-left: 19px;
   }
 
   &__title {
     box-sizing: border-box;
     margin: 0;
+    margin-top: calc(207px - 134px - 33px);
+    margin-left: 16px;
     width: 166px;
     height: 36px;
-    position: absolute;
-    top: 206px;
-    left: 16px;
     line-height: 18px;
     font-size: 12px;
     font-weight: 500;
@@ -39,11 +36,10 @@
   &__code {
     box-sizing: border-box;
     margin: 0;
+    margin-top: calc(247px - 207px - 36px);
+    margin-left: 16px;
     width: 98px;
     height: 14px;
-    position: absolute;
-    top: 246px;
-    left: 16px;
     line-height: 14px;
     font-size: 10px;
     font-weight: 400;
@@ -52,9 +48,8 @@
 
   &__rate {
     box-sizing: border-box;
-    position: absolute;
-    top: 276px;
-    left: 16px;
+    margin-top: calc(277px - 247px - 14px);
+    margin-left: 16px;
     width: 166px;
     height: 16px;
     display: flex;
@@ -78,9 +73,8 @@
     box-sizing: border-box;
     width: 166px;
     height: 18px;
-    position: absolute;
-    top: 316px;
-    left: 16px;
+    margin-top: calc(317px - 277px - 16px);
+    margin-left: 16px;
     display: flex;
     justify-content: space-between;
 
@@ -107,9 +101,8 @@
     box-sizing: border-box;
     width: 166px;
     height: 40px;
-    position: absolute;
-    top: 350px;
-    left: 16px;
+    margin-top: calc(351px - 317px - 18px);
+    margin-left: 16px;
     display: flex;
     justify-content: center;
     align-items: center;
