@@ -6,7 +6,7 @@
   height: 408px;
   display: flex;
   flex-direction: column;
-  border: 1px solid #f3f3f3;
+  border: 1px solid $border-color;
   border-radius: 5px;
   font-family: roboto, sans-serif;
   position: relative;
@@ -32,7 +32,7 @@
     line-height: 18px;
     font-size: 12px;
     font-weight: 500;
-    color: #060b35;
+    color: $card-color;
     transition: color 300ms;
   }
 
@@ -47,7 +47,7 @@
     line-height: 14px;
     font-size: 10px;
     font-weight: 400;
-    color: #616070;
+    color: $paragraph-color;
   }
 
   &__rate {
@@ -71,7 +71,7 @@
     line-height: 14px;
     font-size: 10px;
     font-weight: 400;
-    color: #060b35;
+    color: $card-color;
   }
 
   &__price {
@@ -90,7 +90,7 @@
       line-height: 18px;
       font-size: 12px;
       font-weight: 400;
-      color: #616070;
+      color: $paragraph-color;
     }
 
     &-value {
@@ -99,7 +99,7 @@
       line-height: 18px;
       font-size: 16px;
       font-weight: 700;
-      color: #060b35;
+      color: $card-color;
     }
   }
 
@@ -113,9 +113,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid #00acdc;
+    border: 1px solid $active-color;
     border-radius: 5px;
-    background-color: #00acdc;
+    background-color: $active-color;
     color: #fff;
     line-height: 16px;
     font-size: 14px;

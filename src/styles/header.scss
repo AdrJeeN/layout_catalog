@@ -1,7 +1,7 @@
 @use '../styles/variables' as *;
 
 .header {
-  min-width: 1024px;
+  min-width: $small-header-width;
   box-sizing: border-box;
   height: $header-height;
   background-color: #fff;
