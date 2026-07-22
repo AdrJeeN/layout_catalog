@@ -1,5 +1,11 @@
 @use './variables' as *;
 
+@media (max-width: 487px) {
+  .catalog {
+    grid-template-columns: repeat(1, 200px);
+  }
+}
+
 @media (min-width: 488px) {
   .catalog {
     grid-template-columns: repeat(2, 200px);

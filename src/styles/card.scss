@@ -116,7 +116,9 @@
 
     text-decoration: none;
     text-transform: uppercase;
-    transition: 300ms;
+    transition:
+      color 300ms,
+      background-color 300ms;
 
     &:hover {
       background-color: #fff;
