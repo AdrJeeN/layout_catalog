@@ -13,6 +13,10 @@
     padding: 0;
   }
 
+  &__item {
+    list-style: none;
+  }
+
   &__link {
     display: flex;
     align-items: center;
