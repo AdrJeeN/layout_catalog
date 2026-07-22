@@ -1,6 +1,8 @@
 @use './variables' as *;
 
 .catalog {
+  max-width: calc(4 * 200px + 3 * 48px);
+  margin: 0 auto;
   min-height: 862px;
   padding: 50px 40px;
   display: grid;
