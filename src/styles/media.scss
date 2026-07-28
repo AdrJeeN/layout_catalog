@@ -25,10 +25,3 @@
     gap: 46px 48px;
   }
 }
-
-@media (min-width: 1200px) {
-  .catalog {
-    grid-template-columns: repeat(4, 200px);
-    gap: 46px 48px;
-  }
-}

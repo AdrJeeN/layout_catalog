@@ -2,7 +2,7 @@
 
 .card {
   box-sizing: border-box;
-  width: 200px;
+  width: $card-width;
   height: 408px;
   display: flex;
   flex-direction: column;
@@ -109,7 +109,7 @@
     border: 1px solid $active-color;
     border-radius: 5px;
     background-color: $active-color;
-    color: #fff;
+    color: $white-color;
     line-height: 16px;
     font-size: 14px;
     font-weight: 700;
@@ -130,7 +130,7 @@
     transform: scale(1.2);
 
     .card__title {
-      color: #34568b;
+      color: $title-color;
     }
   }
 }
