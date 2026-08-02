@@ -1,9 +1,9 @@
-@use '../styles/header.scss';
-@use '../styles/navigation.scss';
-@use '../styles/catalog.scss';
-@use '../styles/card.scss';
-@use '../styles/stars.scss';
-@use '../styles/media.scss';
+@use 'header';
+@use 'navigation';
+@use 'catalog';
+@use 'card';
+@use 'stars';
+@use 'media';
 
 body {
   margin: 0;
